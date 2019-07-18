@@ -6,13 +6,13 @@ title: Kernkonzept
 hash: /+zjF1sxTW9nTd9/4ssdJVC89TA4xSYZjT8bNVA6QHo=
 ---
 # Kernkonzept
-In ioBroker gibt es zwei grundsätzlich verschiedene Datentypen. Sogenannte **Staaten** (`states`) und **Objekte**
+In ioBroker gibt es zwei grundsätzlich verschiedene Datentypen. Sogenannte **Zustände** (`states`) und **Objekte**
 
 Objekte repräsentieren sich selten ändernde und größere Daten, wie Metadaten Ihrer Systemgeräte, Konfigurationen und zusätzliche Dateien. Jedes Objekt muss ein Attribut "Typ" haben. Im Folgenden erfahren Sie, welche Objekttypen verfügbar sind und welche obligatorischen Attribute ein Objekt eines bestimmten Typs benötigt. Funktionen wie setObject, getObject, ... werden Ihnen vom Adaptermodul zur Verfügung gestellt.
 
 Zustände stellen häufig sich ändernde Daten in Ihrem System dar, wie z. Wenn eine Lampe ein- oder ausgeschaltet ist, wenn ein Bewegungsmelder eine Bewegung festgestellt hat, die Temperatur Ihres Wohnzimmers oder wenn die Taste einer Fernbedienung gedrückt wird. Im Gegensatz zu Objekten können Zustände verwendet werden, um Aktionen auszulösen, und Zustände können Verlaufsdaten erstellen. Um mit Zuständen zu arbeiten, gibt es im Adaptermodul verschiedene Funktionen wie setState, getState und so weiter.
 
-Für jeden Staat muss auch ein entsprechendes Objekt mit `type=state` existieren.
+Für jeden Zustand muss auch ein entsprechendes Objekt mit `type=state` existieren.
 
 In den folgenden Kapiteln wird das Datenbankschema beschrieben.
 
